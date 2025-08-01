@@ -1,0 +1,18 @@
+{
+  "schema_version": "v1",
+  "name_for_human": "FORWARD Agent Info",
+  "name_for_model": "forward_agent_info",
+  "description_for_human": "Get contact details for the FORWARD DC Metro Luxury Real Estate team",
+  "description_for_model": "Use this API to fetch contact info for FORWARD | DC Metro Luxury Real Estate. Call the /api/agents endpoint.",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://fwrd-api-git-main-marc-cashins-projects.vercel.app",
+    "is_user_authenticated": false
+  },
+  "logo_url": "https://<YOUR-DEPLOYMENT-DOMAIN>/logo.png",
+  "contact_email": "operations@fwrdrealestate.com",
+  "legal_info_url": "https://www.fwrdrealestate.com/terms"
+}
