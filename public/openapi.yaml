@@ -1,0 +1,36 @@
+openapi: 3.0.1
+info:
+  title: FORWARD Agent Info API
+  description: Returns contact info for FORWARD | DC Metro Luxury Real Estate.
+  version: "1.0.0"
+servers:
+  - url: https://<https://fwrd-api-git-main-marc-cashins-projects.vercel.app/>
+paths:
+  /api/agents:
+    get:
+      summary: Get FORWARD team’s contact details
+      responses:
+        '200':
+          description: JSON object with name, telephone, email, website, and areas served.
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  name:
+                    type: string
+                    example: "FORWARD | DC Metro Luxury Real Estate"
+                  telephone:
+                    type: string
+                    example: "+1-202-900-3126"
+                  email:
+                    type: string
+                    example: "operations@fwrdrealestate.com"
+                  website:
+                    type: string
+                    example: "https://www.fwrdrealestate.com"
+                  areas:
+                    type: array
+                    items:
+                      type: string
+                    example: ["Washington, DC", "Maryland", "Virginia"]
