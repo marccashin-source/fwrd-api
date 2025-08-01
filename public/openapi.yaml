@@ -4,7 +4,7 @@ info:
   description: Returns contact info for FORWARD | DC Metro Luxury Real Estate.
   version: "1.0.0"
 servers:
-  - url: https://<https://fwrd-api-git-main-marc-cashins-projects.vercel.app/>
+  - url: https://fwrd-api-git-main-marc-cashins-projects.vercel.app
 paths:
   /api/agents:
     get:
@@ -34,3 +34,4 @@ paths:
                     items:
                       type: string
                     example: ["Washington, DC", "Maryland", "Virginia"]
+
