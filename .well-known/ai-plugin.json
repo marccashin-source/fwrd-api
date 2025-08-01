@@ -9,10 +9,10 @@
   },
   "api": {
     "type": "openapi",
-    "url": "https://fwrd-api-git-main-marc-cashins-projects.vercel.app",
+    "url": "https://fwrd-api-git-main-marc-cashins-projects.vercel.app/openapi.yaml",
     "is_user_authenticated": false
   },
-  "logo_url": "https://<YOUR-DEPLOYMENT-DOMAIN>/logo.png",
+  "logo_url": "https://fwrd-api-git-main-marc-cashins-projects.vercel.app/logo.png",
   "contact_email": "operations@fwrdrealestate.com",
   "legal_info_url": "https://www.fwrdrealestate.com/terms"
 }
